@@ -14,3 +14,10 @@ td= coluna comum
 
 button id="export">Planilha</button = botão para exportar e criar a planilha
 
+justufy content = A propriedade justify-content (en-US) é empregada para alinhar os elementos ao longo do eixo
+principal, cuja direção ( row ou column ) é definida a partir da propriedade flex-direction
+
+display flex = O Flexbox é um conceito do CSS3 que visa organizar os elementos de uma página HTML dentro de 
+seus containers de forma dinâmica. Ou seja, independente das suas dimensões eles sempre manterão um layout
+flexível dentro do seu elemento pai, reorganizando-se e acordo com a necessidade.
+
