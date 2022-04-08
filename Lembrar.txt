@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="style.css"> = chamar o css
+
+<script src="javascript.js"></script> = chamar o js
+
+<input type="radio" id="franbacon" name="espetos"> = botão do tipo radio com id franbacon e name espetos pq 
+como são botão de radio eu quero que seleciona um por vez, por isso quando eu utilizo o name espetos com o mesmo
+nome em todos os inputs, só consegue selecionar um por vez.
+
+label for="franbacon">Franbacon</label = o for serve para quando eu clicar em cima da mensagem selecionar o checkbox
+
+tr= linha
+th= coluna de cabeçalho
+td= coluna comum
+
+button id="export">Planilha</button = botão para exportar e criar a planilha
+

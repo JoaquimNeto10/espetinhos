@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas de Espetinhos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><h1>Espetinho do Wanderson</h1></li>
+            <li><h2>Vendas de Espetinhos</h2></li>
+        </ul>
+    </header>
+
+    <section>
+        <h3>Escolha o espetinho que foi vendido</h3>
+        <form>
+            <ul>
+                <li><input type="radio" id="franbacon" name="espetos">
+                <label for="franbacon">Franbacon</label></li>
+                <li><input type="radio" id="vaca" name="espetos">
+                <label for="vaca">Vaca</label></li>
+                <li><input type="radio" id="porco" name="espetos">
+                <label for="porco">Porco</label></li>
+                <li><input type="radio" id="linguica" name="espetos">
+                <label for="linguica">Linguiça</label></li>
+                <li><input type="radio" id="coracao" name="espetos">
+                <label for="coracao">Coração</label></li>
+            </ul>
+        </form>
+    </section>
+
+    <section>
+        <button id="vendas">Vendas</button><button id="estorno">Estorno</button>
+    </section>
+
+    <section id="table">
+        <table>
+            <tr>
+                <th>Tipo</th><th>Quantidade</th><th>Valor</th>
+            </tr>
+            <tr>
+                <td>Franbacon</td><td id="resultadoFranbacon"></td><td id="vendaFranbacon"></td>
+            </tr>
+            <tr>
+                <td>Vaca</td><td id="resultadoVaca"></td><td id="vendaVaca"></td>
+            </tr>
+            <tr>
+                <td>Porco</td><td id="resultadoPorco"></td><td id="vendaPorco"></td>
+            </tr>
+            <tr>
+                <td>Linguiça</td><td id="resultadoLinguica"></td><td id="vendaLinguica"></td>
+            </tr>
+            <tr>
+                <td>Coração</td><td id="resultadoCoracao"></td><td id="vendaCoracao"></td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <button id="export">Planilha</button>
+    </section>
+    
+    <script src="tableToExcel.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
